@@ -12,9 +12,9 @@ const AuthButtonStyled = styled.button`
 
 const AuthButton = ({title, handleClick}) => {
   return (
-    <div>
+    <>
      <AuthButtonStyled onClick={handleClick}>{title}</AuthButtonStyled> 
-    </div>
+    </>
   )
 }
 
