@@ -1,7 +1,7 @@
 import React , {useState} from 'react'
 import Header from '../component/common/Header'
 import Search from '../component/news/Search'
-import NewsList from './NewsList'
+import NewsList from '../component/news/NewsList'
 import axios from 'axios'
 
 
